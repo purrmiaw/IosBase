@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:maraeps.xcodeproj">
+      location = "self:/Users/authenticventuresdnbhd/Desktop/Dev/maraeps/iosbase.xcodeproj">
    </FileRef>
 </Workspace>

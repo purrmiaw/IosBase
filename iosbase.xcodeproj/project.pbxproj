@@ -35,17 +35,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		685E23DB20CA3A5400BDFCD3 /* maraeps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = maraeps.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		685E23DB20CA3A5400BDFCD3 /* iosbase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iosbase.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		685E23DE20CA3A5400BDFCD3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		685E23E020CA3A5400BDFCD3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		685E23E320CA3A5400BDFCD3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		685E23E520CA3A5600BDFCD3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		685E23E820CA3A5600BDFCD3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		685E23EA20CA3A5600BDFCD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		685E23EF20CA3A5600BDFCD3 /* maraepsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = maraepsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		685E23EF20CA3A5600BDFCD3 /* iosbaseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iosbaseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		685E23F320CA3A5600BDFCD3 /* maraepsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = maraepsTests.swift; sourceTree = "<group>"; };
 		685E23F520CA3A5600BDFCD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		685E23FA20CA3A5600BDFCD3 /* maraepsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = maraepsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		685E23FA20CA3A5600BDFCD3 /* iosbaseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iosbaseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		685E23FE20CA3A5600BDFCD3 /* maraepsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = maraepsUITests.swift; sourceTree = "<group>"; };
 		685E240020CA3A5600BDFCD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6878E94620CFA8FD0016D799 /* AccountsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountsTableViewController.swift; sourceTree = "<group>"; };
@@ -79,9 +79,9 @@
 		685E23D220CA3A5400BDFCD3 = {
 			isa = PBXGroup;
 			children = (
-				685E23DD20CA3A5400BDFCD3 /* maraeps */,
-				685E23F220CA3A5600BDFCD3 /* maraepsTests */,
-				685E23FD20CA3A5600BDFCD3 /* maraepsUITests */,
+				685E23DD20CA3A5400BDFCD3 /* iosbase */,
+				685E23F220CA3A5600BDFCD3 /* iosbaseTests */,
+				685E23FD20CA3A5600BDFCD3 /* iosbaseUITests */,
 				685E23DC20CA3A5400BDFCD3 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -89,14 +89,14 @@
 		685E23DC20CA3A5400BDFCD3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				685E23DB20CA3A5400BDFCD3 /* maraeps.app */,
-				685E23EF20CA3A5600BDFCD3 /* maraepsTests.xctest */,
-				685E23FA20CA3A5600BDFCD3 /* maraepsUITests.xctest */,
+				685E23DB20CA3A5400BDFCD3 /* iosbase.app */,
+				685E23EF20CA3A5600BDFCD3 /* iosbaseTests.xctest */,
+				685E23FA20CA3A5600BDFCD3 /* iosbaseUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		685E23DD20CA3A5400BDFCD3 /* maraeps */ = {
+		685E23DD20CA3A5400BDFCD3 /* iosbase */ = {
 			isa = PBXGroup;
 			children = (
 				685E23DE20CA3A5400BDFCD3 /* AppDelegate.swift */,
@@ -107,33 +107,33 @@
 				685E23EA20CA3A5600BDFCD3 /* Info.plist */,
 				6878E94620CFA8FD0016D799 /* AccountsTableViewController.swift */,
 			);
-			path = maraeps;
+			path = iosbase;
 			sourceTree = "<group>";
 		};
-		685E23F220CA3A5600BDFCD3 /* maraepsTests */ = {
+		685E23F220CA3A5600BDFCD3 /* iosbaseTests */ = {
 			isa = PBXGroup;
 			children = (
 				685E23F320CA3A5600BDFCD3 /* maraepsTests.swift */,
 				685E23F520CA3A5600BDFCD3 /* Info.plist */,
 			);
-			path = maraepsTests;
+			path = iosbaseTests;
 			sourceTree = "<group>";
 		};
-		685E23FD20CA3A5600BDFCD3 /* maraepsUITests */ = {
+		685E23FD20CA3A5600BDFCD3 /* iosbaseUITests */ = {
 			isa = PBXGroup;
 			children = (
 				685E23FE20CA3A5600BDFCD3 /* maraepsUITests.swift */,
 				685E240020CA3A5600BDFCD3 /* Info.plist */,
 			);
-			path = maraepsUITests;
+			path = iosbaseUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		685E23DA20CA3A5400BDFCD3 /* maraeps */ = {
+		685E23DA20CA3A5400BDFCD3 /* iosbase */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 685E240320CA3A5600BDFCD3 /* Build configuration list for PBXNativeTarget "maraeps" */;
+			buildConfigurationList = 685E240320CA3A5600BDFCD3 /* Build configuration list for PBXNativeTarget "iosbase" */;
 			buildPhases = (
 				685E23D720CA3A5400BDFCD3 /* Sources */,
 				685E23D820CA3A5400BDFCD3 /* Frameworks */,
@@ -143,14 +143,14 @@
 			);
 			dependencies = (
 			);
-			name = maraeps;
+			name = iosbase;
 			productName = maraeps;
-			productReference = 685E23DB20CA3A5400BDFCD3 /* maraeps.app */;
+			productReference = 685E23DB20CA3A5400BDFCD3 /* iosbase.app */;
 			productType = "com.apple.product-type.application";
 		};
-		685E23EE20CA3A5600BDFCD3 /* maraepsTests */ = {
+		685E23EE20CA3A5600BDFCD3 /* iosbaseTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 685E240620CA3A5600BDFCD3 /* Build configuration list for PBXNativeTarget "maraepsTests" */;
+			buildConfigurationList = 685E240620CA3A5600BDFCD3 /* Build configuration list for PBXNativeTarget "iosbaseTests" */;
 			buildPhases = (
 				685E23EB20CA3A5600BDFCD3 /* Sources */,
 				685E23EC20CA3A5600BDFCD3 /* Frameworks */,
@@ -161,14 +161,14 @@
 			dependencies = (
 				685E23F120CA3A5600BDFCD3 /* PBXTargetDependency */,
 			);
-			name = maraepsTests;
+			name = iosbaseTests;
 			productName = maraepsTests;
-			productReference = 685E23EF20CA3A5600BDFCD3 /* maraepsTests.xctest */;
+			productReference = 685E23EF20CA3A5600BDFCD3 /* iosbaseTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		685E23F920CA3A5600BDFCD3 /* maraepsUITests */ = {
+		685E23F920CA3A5600BDFCD3 /* iosbaseUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 685E240920CA3A5600BDFCD3 /* Build configuration list for PBXNativeTarget "maraepsUITests" */;
+			buildConfigurationList = 685E240920CA3A5600BDFCD3 /* Build configuration list for PBXNativeTarget "iosbaseUITests" */;
 			buildPhases = (
 				685E23F620CA3A5600BDFCD3 /* Sources */,
 				685E23F720CA3A5600BDFCD3 /* Frameworks */,
@@ -179,9 +179,9 @@
 			dependencies = (
 				685E23FC20CA3A5600BDFCD3 /* PBXTargetDependency */,
 			);
-			name = maraepsUITests;
+			name = iosbaseUITests;
 			productName = maraepsUITests;
-			productReference = 685E23FA20CA3A5600BDFCD3 /* maraepsUITests.xctest */;
+			productReference = 685E23FA20CA3A5600BDFCD3 /* iosbaseUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -207,7 +207,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 685E23D620CA3A5400BDFCD3 /* Build configuration list for PBXProject "maraeps" */;
+			buildConfigurationList = 685E23D620CA3A5400BDFCD3 /* Build configuration list for PBXProject "iosbase" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -220,9 +220,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				685E23DA20CA3A5400BDFCD3 /* maraeps */,
-				685E23EE20CA3A5600BDFCD3 /* maraepsTests */,
-				685E23F920CA3A5600BDFCD3 /* maraepsUITests */,
+				685E23DA20CA3A5400BDFCD3 /* iosbase */,
+				685E23EE20CA3A5600BDFCD3 /* iosbaseTests */,
+				685E23F920CA3A5600BDFCD3 /* iosbaseUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -286,12 +286,12 @@
 /* Begin PBXTargetDependency section */
 		685E23F120CA3A5600BDFCD3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 685E23DA20CA3A5400BDFCD3 /* maraeps */;
+			target = 685E23DA20CA3A5400BDFCD3 /* iosbase */;
 			targetProxy = 685E23F020CA3A5600BDFCD3 /* PBXContainerItemProxy */;
 		};
 		685E23FC20CA3A5600BDFCD3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 685E23DA20CA3A5400BDFCD3 /* maraeps */;
+			target = 685E23DA20CA3A5400BDFCD3 /* iosbase */;
 			targetProxy = 685E23FB20CA3A5600BDFCD3 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -436,7 +436,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = F78ZMS3693;
+				DEVELOPMENT_TEAM = KH5E55BKKT;
 				INFOPLIST_FILE = maraeps/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -457,7 +457,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = F78ZMS3693;
+				DEVELOPMENT_TEAM = KH5E55BKKT;
 				INFOPLIST_FILE = maraeps/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -489,7 +489,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/maraeps.app/maraeps";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iosbase.app/iosbase";
 			};
 			name = Debug;
 		};
@@ -510,7 +510,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/maraeps.app/maraeps";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iosbase.app/iosbase";
 			};
 			name = Release;
 		};
@@ -557,7 +557,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		685E23D620CA3A5400BDFCD3 /* Build configuration list for PBXProject "maraeps" */ = {
+		685E23D620CA3A5400BDFCD3 /* Build configuration list for PBXProject "iosbase" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				685E240120CA3A5600BDFCD3 /* Debug */,
@@ -566,7 +566,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		685E240320CA3A5600BDFCD3 /* Build configuration list for PBXNativeTarget "maraeps" */ = {
+		685E240320CA3A5600BDFCD3 /* Build configuration list for PBXNativeTarget "iosbase" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				685E240420CA3A5600BDFCD3 /* Debug */,
@@ -575,7 +575,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		685E240620CA3A5600BDFCD3 /* Build configuration list for PBXNativeTarget "maraepsTests" */ = {
+		685E240620CA3A5600BDFCD3 /* Build configuration list for PBXNativeTarget "iosbaseTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				685E240720CA3A5600BDFCD3 /* Debug */,
@@ -584,7 +584,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		685E240920CA3A5600BDFCD3 /* Build configuration list for PBXNativeTarget "maraepsUITests" */ = {
+		685E240920CA3A5600BDFCD3 /* Build configuration list for PBXNativeTarget "iosbaseUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				685E240A20CA3A5600BDFCD3 /* Debug */,
