@@ -26,10 +26,10 @@
             </objects>
             <point key="canvasLocation" x="186" y="464"/>
         </scene>
-        <!--MARA EPS-->
+        <!--IosBase-->
         <scene sceneID="mcl-H5-BzC">
             <objects>
-                <tabBarController title="MARA EPS" id="Bcs-BN-RS2" sceneMemberID="viewController">
+                <tabBarController title="IosBase" id="Bcs-BN-RS2" sceneMemberID="viewController">
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Q26-Vi-MUG">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -47,7 +47,7 @@
         <!--Akaun-Akaun-->
         <scene sceneID="eZk-aO-svQ">
             <objects>
-                <tableViewController id="tLR-wG-7a6" customClass="AccountsTableViewController" customModule="maraeps" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="tLR-wG-7a6" customClass="AccountsTableViewController" customModule="iosbase" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="xJb-9H-Rpy">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
