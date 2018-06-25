@@ -132,6 +132,7 @@ class AccountsTableViewController: UITableViewController {
         // Configure the cell...
         //cell.textLabel?.text = fruits[indexPath.row]
         cell.textLabel?.text = _stuffs[indexPath.row].name
+        //cell.imageView?.image.im
         
         return cell
     }
